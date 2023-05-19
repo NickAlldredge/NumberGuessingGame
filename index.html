@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Number Guessing Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>Number Guessing Game</h1>
+      <p>Try to guess the correct number using the fewest number of guesses!</p>
+    </header>
+
+    <section>
+      <h2>Guess a number between 1 and 20</h2>
+      <label>
+        Your guess:
+        <input type="number" name="guess" id="guess" />
+      </label>
+      <button class="btn-guess">Check Guess!</button>
+    </section>
+
+    <section>
+      <p class="message">Enter your guess and click the button!</p>
+      <p>Score: <span class="score">20</span></p>
+      <p>High Score: <span class="high-score">0</span></p>
+      <button class="reset">New Game?</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
