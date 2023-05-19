@@ -40,6 +40,12 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
 .content-container {
   margin: 0 auto;
   background-color: var(--blue-gray-2);
@@ -64,6 +70,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding: 0.5rem;
 }
 
 button {
