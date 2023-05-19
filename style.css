@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+:root {
+  --blue-gray-1: #102a43;
+  --blue-gray-2: #243b53;
+  --blue-gray-3: #334e68;
+
+  --primary-green: #8bc34a;
+}
+
+html {
+  font-size: 16px;
+  color: white;
+}
+
+body {
+  background-color: var(--blue-gray-1);
+}
+
+header {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.content-container {
+  margin: 0 auto;
+  background-color: var(--blue-gray-2);
+  border-radius: 1rem;
+}
+
+.game-container {
+  background-color: var(--blue-gray-3);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+button {
+  margin: 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: var(--primary-green);
+}
+
+input {
+  font-size: 1rem;
+  width: 5rem;
+  padding: 0.25rem;
+}
+
+label {
+  padding: 0.5rem;
+}
+
+@media (min-width: 720px) {
+  .content-container {
+    width: 75%;
+    max-width: 1080px;
+  }
+
+  main {
+    flex-direction: row;
+  }
+}
